@@ -1,0 +1,151 @@
+:root {
+    --main-color: #fe8a02;
+    --main-color-dark: #42413c;
+    --color-dark: #2a2626;
+    --color-dark-op: #908d8b;
+    --color-braun: #b09a81;
+    --color-blue: #1085c5;
+    --color-white: #fff;
+    --color-white-op: #d7ccc0;
+    --color-light: #f5f4f0;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Neucha";
+    src: url("../fonts/Neucha-Regular.ttf");
+}
+
+/* Общие классы */
+
+.m-body {
+    margin: 0;
+
+    font-family: "Open Sans", sans-serif;
+
+    line-height: 1.6em;
+    font-size: 16px;
+
+    color: #2A2626;
+    
+}
+
+.size-section {
+    width: 1110px;
+
+    text-align: center;
+
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
+
+.columns {
+    column-count: 2;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+
+/* Заголовки */
+
+.line-h {
+    line-height: 1.2em;
+}
+
+.font-f {
+    font-family: "Neucha";
+}
+
+.f-s-h1 {
+    font-size: 72px;
+}
+
+.f-s-h2 {
+    font-size: 60px;
+}
+
+.f-s-h3 {
+    font-size: 34px;
+}
+
+
+
+/* Хедер */
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-header::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.06;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: lightgray 50% / contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Футер */
+.bg-footer {
+    background-color: #42413C;
+}

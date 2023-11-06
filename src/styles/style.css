@@ -1,6 +1,6 @@
 :root {
   --main-color: #fe8a02;
-  --main-color-hover: #EA7600;
+  --main-color-hover: #ea7600;
   --main-color-dark: #42413c;
   --color-dark: #2a2626;
   --color-dark-op: #908d8b;
@@ -46,7 +46,7 @@ html {
   line-height: 1.6em;
   font-size: 16px;
 
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .main {
@@ -88,7 +88,6 @@ html {
 
 .col-left {
   padding-right: 15px;
-
 }
 
 .col-right {
@@ -178,7 +177,6 @@ html {
   opacity: 0.1;
   background-image: url("images/background.png");
   background-repeat: no-repeat;
-  /* background-position: 50%; */
   background-size: cover;
 }
 
@@ -202,6 +200,7 @@ html {
 .overflow {
   overflow: hidden;
 }
+
 /* .header {
   background-color: var(--color-white-op);
 
@@ -286,26 +285,12 @@ h1 {
 .nav-item-size {
   box-sizing: border-box;
   width: 350px;
-  /* min-height: 323px; */
   flex-shrink: 0;
   flex-grow: 1;
 
   margin-right: 15px;
   margin-left: 15px;
 }
-/*
-.nav-item:nth-child(1),
-.nav-item:nth-child(2) {
-  height: 323px;
-}
-
-.nav-item:nth-child(3),
-.nav-item:nth-child(4),
-.nav-item:nth-child(5) {
-  height: 348px;
-} */
-
-
 
 .nav-title {
   margin-left: 0;
@@ -318,7 +303,6 @@ h1 {
 .nav-title {
   margin-bottom: 20px;
 }
-
 
 .nav-item:nth-of-type(3),
 .nav-item:nth-of-type(6) {
@@ -439,7 +423,7 @@ h1 {
   margin-top: 9px;
 }
 
-.input-footer::-webkit-input-placeholder {
+.input-footer::placeholder {
   opacity: 0.2;
   padding: 15px;
 }
@@ -451,7 +435,7 @@ h1 {
 }
 
 .button-footer::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   background-image: url("images/send.svg");
   width: 24px;

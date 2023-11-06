@@ -246,7 +246,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-
 .video-wrapper .size-section {
   padding-bottom: 0;
 }
@@ -271,7 +270,11 @@ h1 {
   background-color: var(--main-color-dark);
 }
 
-.nav-title h2 {
+/* .nav-title h2 {
+  font-size: 52px;
+} */
+
+.f-s-52 {
   font-size: 52px;
 }
 

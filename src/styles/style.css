@@ -30,6 +30,7 @@
 }
 
 /* Общие классы */
+
 html {
   height: 100%;
 }
@@ -167,7 +168,7 @@ html {
 }
 
 .wrapper::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   left: 0;
   top: 0;
@@ -269,7 +270,7 @@ h1 {
   background-color: var(--main-color-dark);
 }
 
-.nav-title h2 {
+.fs-52 {
   font-size: 52px;
 }
 
@@ -366,7 +367,6 @@ h1 {
   color: var(--color-white-op);
   font-size: 24px;
 }
-
 
 .h4-how-white {
   font-size: 14px;

@@ -286,13 +286,27 @@ h1 {
 .nav-item-size {
     box-sizing: border-box;
     width: 350px;
-    min-height: 323px;
+    height: 348px;
+    /* min-height: 323px; */
     flex-shrink: 0;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
     margin-right: 15px;
     margin-left: 15px;
 }
+/* 
+.nav-item:nth-child(1),
+.nav-item:nth-child(2) {
+    height: 323px;
+}
+
+.nav-item:nth-child(3),
+.nav-item:nth-child(4),
+.nav-item:nth-child(5) {
+    height: 348px;
+} */
+
+
 
 .nav-title {
     margin-left: 0;

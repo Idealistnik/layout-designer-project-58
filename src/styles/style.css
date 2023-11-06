@@ -31,28 +31,15 @@
 
 /* Общие классы */
 
-/* html {
-  height: 100%;
-} */
-
 .m-body {
-  /* height: 100%; */
   margin: 0;
 
-  /* min-height: 100%; */
-  /* flex-direction: column; */
-
   font-family: "Open Sans", sans-serif;
-
   line-height: 1.6em;
   font-size: 16px;
 
   color: #2a2626;
 }
-
-/* .main {
-  flex: 1 1 auto;
-} */
 
 .flex {
   display: flex;
@@ -117,6 +104,10 @@
 
 .bc-dark {
   background-color: var(--main-color-dark);
+}
+
+.bc-light {
+  background-color: var(--color-light);
 }
 
 .no-style {
@@ -194,18 +185,9 @@
   z-index: 1;
 }
 
-.header {
-  background-color: var(--color-light);
-}
-
 .overflow {
   overflow: hidden;
 }
-
-/* .header {
-  background-color: var(--color-white-op);
-
-} */
 
 h1 {
   z-index: 2;
@@ -222,14 +204,14 @@ h1 {
 .link-main {
   display: inline-block;
 
+  padding: 12px 24px;
+  margin-top: 40px;
+
   font-weight: bold;
   text-transform: uppercase;
   color: var(--color-white);
 
   background-color: var(--main-color);
-
-  padding: 12px 24px;
-  margin-top: 40px;
 }
 
 .button-hover:hover {
@@ -241,10 +223,6 @@ h1 {
 .video-wrapper {
   background-color: var(--color-white);
 }
-
-/* .video-wrapper .size-section h2 {
-  margin-bottom: 30px;
-} */
 
 .mg-b-30 {
   margin-bottom: 30px;
@@ -277,10 +255,6 @@ h1 {
 .f-s-52 {
   font-size: 52px;
 }
-
-/* .nav-title h2 {
-  font-size: 52px;
-} */
 
 .wrap {
   flex-wrap: wrap;
@@ -324,11 +298,12 @@ h1 {
 
 .nav-number {
   display: block;
+
+  margin-bottom: 40px;
+
   font-family: Neucha, sans-serif;
   font-size: 64px;
   line-height: 1em;
-
-  margin-bottom: 40px;
 }
 
 .nav-item:hover {
@@ -352,38 +327,34 @@ h1 {
 }
 
 .h4-how-braun {
-  font-size: 14px;
-  padding-left: 10px;
-  color: var(--color-white);
-  text-transform: uppercase;
-
   margin-top: 100px;
   margin-bottom: 20px;
+  padding-left: 10px;
+
+  font-size: 14px;  
+  color: var(--color-white);
+  text-transform: uppercase;
 }
 
 .section-title-light {
   padding-left: 30px;
 }
 
-.bc-light {
-  background-color: var(--color-light);
-}
-
 /* темные секции */
 
 .section-title-p-dark {
-  color: var(--color-white-op);
   font-size: 24px;
+  color: var(--color-white-op);
 }
 
 .h4-how-white {
-  font-size: 14px;
-  padding-left: 10px;
-  color: var(--color-braun);
-  text-transform: uppercase;
-
   margin-top: 100px;
   margin-bottom: 20px;
+  padding-left: 10px;
+
+  font-size: 14px;
+  color: var(--color-braun);
+  text-transform: uppercase;
 }
 
 .section-title-dark {
@@ -398,10 +369,6 @@ h1 {
 }
 
 /* Футер */
-
-/* .footer {
-  margin-top: auto;
-} */
 
 .address {
   margin-top: 60px;

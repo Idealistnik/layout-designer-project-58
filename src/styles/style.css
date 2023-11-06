@@ -274,13 +274,13 @@ margin-bottom: 30px;
   background-color: var(--main-color-dark);
 }
 
+.f-s-52 {
+  font-size: 52px;
+}
+
 /* .nav-title h2 {
   font-size: 52px;
 } */
-
-.nav-title h2 {
-  font-size: 52px;
-}
 
 .wrap {
   flex-wrap: wrap;

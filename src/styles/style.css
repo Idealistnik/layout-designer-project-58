@@ -286,7 +286,7 @@ h1 {
 .nav-item-size {
     box-sizing: border-box;
     width: 350px;
-    height: 348px;
+    height: 323px;
     /* min-height: 323px; */
     flex-shrink: 0;
     /* flex-grow: 1; */

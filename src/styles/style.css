@@ -242,13 +242,13 @@ h1 {
   background-color: var(--color-white);
 }
 
-.video-wrapper .size-section h2 {
+/* .video-wrapper .size-section h2 {
   margin-bottom: 30px;
-}
-
-/* .mg-b-30 {
-margin-bottom: 30px;
 } */
+
+.mg-b-30 {
+margin-bottom: 30px;
+}
 
 .video-wrapper .size-section {
   padding-bottom: 0;

@@ -140,7 +140,7 @@ html {
 .font-f {
   font-family: Neucha, sans-serif;
 
-  margin: 0;
+  /* margin: 0; */
   font-weight: 400;
 }
 
@@ -242,8 +242,12 @@ h1 {
   background-color: var(--color-white);
 }
 
-.video-wrapper .size-section h2 {
+/* .video-wrapper .size-section h2 {
   margin-bottom: 30px;
+} */
+
+.mg-b-30 {
+margin-bottom: 30px;
 }
 
 .video-wrapper .size-section {
@@ -274,7 +278,7 @@ h1 {
   font-size: 52px;
 } */
 
-.f-s-52 {
+.nav-title h2 {
   font-size: 52px;
 }
 

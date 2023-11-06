@@ -178,7 +178,7 @@ html {
     opacity: 0.1;
     background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-position: 50%;
+    /* background-position: 50%; */   
     background-size: cover;
 }
 
@@ -193,11 +193,19 @@ html {
     top: 55px;
     right: -270px;
     z-index: 1;
-    overflow-x: hidden;
 }
+
 .header {
-    background-color: var(--color-white-op);
+    background-color: var(--color-light);
 }
+
+.overflow {
+    overflow: hidden;
+}
+/* .header {
+    background-color: var(--color-white-op);
+    
+} */
 
 h1 {
     z-index: 2;

@@ -31,14 +31,10 @@
 
 /* Общие классы */
 
-.m-body {
-  margin: 0;
-
+.body-font {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
   font-size: 16px;
-
-  color: #2a2626;
 }
 
 .flex {
@@ -46,7 +42,6 @@
 }
 
 .flex-center {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -104,6 +99,14 @@
 
 .dark-color {
   color: #2a2626;
+}
+
+.dark-op-color {
+  color: var(--color-dark-op);
+}
+
+.dark-more-color {
+  color: var(--color-dark-more);
 }
 
 .bg-brown {
@@ -207,9 +210,9 @@
   overflow: hidden;
 }
 
-h1 {
+/* h1 {
   z-index: 2;
-}
+} */
 
 .mg-top {
   margin-top: 185px;
@@ -261,10 +264,6 @@ h1 {
 
 .mg-b-100 {
   margin-bottom: -100px;
-}
-
-.text-dark {
-  color: var(--color-dark-more);
 }
 
 /* НАВИГАЦИЯ */
@@ -348,11 +347,6 @@ h1 {
 
 /* светлые секции */
 
-.section-title-p-light {
-  color: var(--color-dark-op);
-  font-size: 24px;
-}
-
 .h3-how-brown {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -399,7 +393,7 @@ h1 {
   font-style: normal;
 }
 
-.h3-footer {
+.mg-55 {
   margin: 55px;
 }
 
@@ -407,7 +401,7 @@ h1 {
   font-size: 12px;
 }
 
-.label {
+.f-s-18 {
   font-size: 18px;
 }
 

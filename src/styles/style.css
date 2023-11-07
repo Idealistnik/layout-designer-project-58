@@ -98,7 +98,7 @@
 }
 
 .dark-color {
-  color: #2a2626;
+  color: var(--color-dark);
 }
 
 .dark-op-color {
@@ -170,11 +170,6 @@
 
 /* бекграунд-изображение */
 
-/* .content-section {
-  position: relative;
-  z-index: 2;
-} */
-
 .wrapper::before {
   content: " ";
   position: absolute;
@@ -209,10 +204,6 @@
 .overflow {
   overflow: hidden;
 }
-
-/* h1 {
-  z-index: 2;
-} */
 
 .mg-top {
   margin-top: 185px;
@@ -286,7 +277,6 @@
 }
 
 .nav-item {
-  background-color: var(--color-light);
   padding: 24px;
 }
 
@@ -300,10 +290,15 @@
   margin-left: 15px;
 }
 
+.display-b {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .nav-title {
   margin-left: 0;
   margin-right: 15px;
-  padding: 0;
 }
 
 .nav-item:nth-of-type(2),

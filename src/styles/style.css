@@ -194,6 +194,15 @@
 
 /* ХЕДЕР */
 
+.columns-2 {
+  columns: 2;
+  column-gap: 30px;
+}
+.p-2 {
+  break-before: column;
+}
+
+
 .img-header {
   height: 525px;
   top: 55px;

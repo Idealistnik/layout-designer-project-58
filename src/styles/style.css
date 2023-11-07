@@ -4,7 +4,7 @@
   --main-color-dark: #42413c;
   --color-dark: #2a2626;
   --color-dark-op: #908d8b;
-  --color-braun: #b09a81;
+  --color-brown: #b09a81;
   --color-white: #fff;
   --color-white-op: #d7ccc0;
   --color-light: #f5f4f0;
@@ -14,19 +14,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans-Regular.woff2");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans-Bold.woff2");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url("../fonts/Neucha-Regular.ttf");
+  src: url("../fonts/Neucha-Regular.woff2");
 }
 
 /* Общие классы */
@@ -60,10 +60,13 @@
 }
 
 .size-section {
-  width: 1110px;
-  text-align: center;
+  width: 1110px;  
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-left {
@@ -90,23 +93,23 @@
   color: var(--color-white);
 }
 
-.bc-braun {
-  background-color: var(--color-braun);
+.bg-brown {
+  background-color: var(--color-brown);
 }
 
-.bc-main {
+.bg-main {
   background-color: var(--main-color);
 }
 
-.bc-white {
+.bg-white {
   background-color: var(--color-white);
 }
 
-.bc-dark {
+.bg-dark {
   background-color: var(--main-color-dark);
 }
 
-.bc-light {
+.bg-light {
   background-color: var(--color-light);
 }
 
@@ -130,8 +133,6 @@
 
 .font-f {
   font-family: Neucha, sans-serif;
-
-  margin: 0;
   font-weight: 400;
 }
 
@@ -167,7 +168,7 @@
   height: 100%;
   z-index: 1;
   opacity: 0.1;
-  background-image: url("images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -234,6 +235,7 @@ h1 {
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  border: 0;
   margin-bottom: -100px;
 }
 
@@ -326,7 +328,7 @@ h1 {
   font-size: 24px;
 }
 
-.h4-how-braun {
+.h3-how-brown {
   margin-top: 100px;
   margin-bottom: 20px;
   padding-left: 10px;
@@ -347,13 +349,13 @@ h1 {
   color: var(--color-white-op);
 }
 
-.h4-how-white {
+.h3-how-white {
   margin-top: 100px;
   margin-bottom: 20px;
   padding-left: 10px;
 
   font-size: 14px;
-  color: var(--color-braun);
+  color: var(--color-brown);
   text-transform: uppercase;
 }
 
@@ -412,7 +414,7 @@ h1 {
 .button-footer::before {
   content: " ";
   position: absolute;
-  background-image: url("images/send.svg");
+  background-image: url("../images/send.svg");
   width: 24px;
   height: 24px;
   left: 50%;

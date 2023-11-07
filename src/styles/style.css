@@ -127,11 +127,7 @@
 }
 
 .no-style-ul {
-  
   list-style-type: none;
-  /* margin: 0;
-  padding: 0; */
-  /* color: inherit; */
 }
 
 .text-dec {
@@ -171,14 +167,10 @@
 
 /* бекграунд-изображение */
 
-.wrapper {
-  position: relative;
-}
-
-.content-section {
+/* .content-section {
   position: relative;
   z-index: 2;
-}
+} */
 
 .wrapper::before {
   content: " ";
@@ -192,6 +184,10 @@
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.z-2 {
+  z-index: 2;
 }
 
 .z-3 {

@@ -204,15 +204,16 @@ h1 {
 
 .link-main {
   display: inline-block;
-
   padding: 12px 24px;
   margin-top: 40px;
+}
 
+.bold {
   font-weight: bold;
-  text-transform: uppercase;
-  color: var(--color-white);
+}
 
-  background-color: var(--main-color);
+.uppercase {
+  text-transform: uppercase;
 }
 
 .button-hover:hover {

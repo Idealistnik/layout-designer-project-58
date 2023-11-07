@@ -196,9 +196,11 @@
 
 .columns-2 {
   columns: 2;
+  column-width: 100%;
   column-gap: 30px;
+  column-span: all;
 }
-.p-2 {
+.break-col {
   break-before: column;
 }
 
@@ -400,6 +402,15 @@
 .mg-55 {
   margin: 55px;
 }
+
+/* ==================== */
+
+.margin-form {
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
+
+/* ================== */
 
 .fs-12 {
   font-size: 12px;

@@ -69,10 +69,6 @@
   text-align: center;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .col {
   min-width: 50%;
   flex-grow: 1;

@@ -293,6 +293,11 @@
   margin-right: 0;
 }
 
+.nav-item:nth-of-type(n + 4) {
+  margin-bottom: 0;
+}
+
+
 .nav-number {
   display: block;
   margin-bottom: 40px;

@@ -79,6 +79,10 @@
   margin-right: 30px;
 }
 
+.col:last-child {
+  margin-right: 0;
+}
+
 .main-color {
   color: var(--main-color);
 }

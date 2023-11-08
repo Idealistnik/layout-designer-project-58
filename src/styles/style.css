@@ -69,22 +69,10 @@
   text-align: left;
 }
 
-.col-w {
+.col {
   min-width: 50%;
   flex-grow: 1;
-}
-
-.mg-col-30 {
   margin-right: 30px;
-}
-
-
-.col-left {
-  padding-right: 15px;
-}
-
-.col-right {
-  padding-left: 15px;
 }
 
 .main-color {
@@ -199,17 +187,6 @@
 }
 
 /* ХЕДЕР */
-
-/* .columns-2 {
-  columns: 2;
-  column-width: 100%;
-  column-gap: 30px;
-  column-span: all;
-}
-
-.break-col {
-  break-before: column;
-} */
 
 .img-header {
   height: 525px;
@@ -408,15 +385,6 @@
 .mg-55 {
   margin: 55px;
 }
-
-/* ==================== */
-
-/* .margin-form {
-  margin-top: 38px;
-  margin-bottom: 40px;
-} */
-
-/* ================== */
 
 .fs-12 {
   font-size: 12px;

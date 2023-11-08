@@ -69,9 +69,15 @@
   text-align: left;
 }
 
-/* .col-w {
-  width: 50%;
+.col-w {
+  min-width: 50%;
+  flex-grow: 1;
 }
+
+.mg-col-30 {
+  margin-right: 30px;
+}
+
 
 .col-left {
   padding-right: 15px;
@@ -79,7 +85,7 @@
 
 .col-right {
   padding-left: 15px;
-} */
+}
 
 .main-color {
   color: var(--main-color);
@@ -194,7 +200,7 @@
 
 /* ХЕДЕР */
 
-.columns-2 {
+/* .columns-2 {
   columns: 2;
   column-width: 100%;
   column-gap: 30px;
@@ -203,7 +209,7 @@
 
 .break-col {
   break-before: column;
-}
+} */
 
 .img-header {
   height: 525px;
@@ -405,10 +411,10 @@
 
 /* ==================== */
 
-.margin-form {
+/* .margin-form {
   margin-top: 38px;
   margin-bottom: 40px;
-}
+} */
 
 /* ================== */
 

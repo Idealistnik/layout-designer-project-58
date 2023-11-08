@@ -170,7 +170,7 @@
 
 /* бекграунд-изображение */
 
-.wrapper::before {
+.bg-img::before {
   content: " ";
   position: absolute;
   left: 0;

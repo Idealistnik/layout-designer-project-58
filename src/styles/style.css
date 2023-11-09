@@ -70,8 +70,7 @@
 }
 
 .col {
-  min-width: 50%;
-  flex-grow: 1;
+  flex: 1 1 50%;
   margin-right: 30px;
 }
 
@@ -338,10 +337,6 @@
   font-size: 14px;
 }
 
-.section-title-light {
-  padding-left: 30px;
-}
-
 /* темные секции */
 
 .f-s-24 {
@@ -352,10 +347,6 @@
   margin-top: 100px;
   margin-bottom: 20px;
   padding-left: 10px;
-}
-
-.section-title-dark {
-  padding-right: 30px;
 }
 
 /* Футер */

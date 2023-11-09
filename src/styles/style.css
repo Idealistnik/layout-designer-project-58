@@ -29,8 +29,6 @@
   src: url("../fonts/Neucha-Regular.woff2");
 }
 
-/* Общие классы */
-
 .body-font {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
@@ -146,8 +144,6 @@
   vertical-align: middle;
 }
 
-/* Заголовки */
-
 .line-h {
   line-height: 1.2em;
 }
@@ -168,8 +164,6 @@
 .f-s-h3 {
   font-size: 34px;
 }
-
-/* бекграунд-изображение */
 
 .bg-img::before {
   content: " ";
@@ -193,21 +187,15 @@
   z-index: 3;
 }
 
-/* .z-2 {
-  z-index: 2;
+.z-5 {
+  z-index: 5;
 }
-
-.z-3 {
-  z-index: 3;
-} */
-
-/* ХЕДЕР */
 
 .img-header {
   height: 525px;
   top: 55px;
   right: -270px;
-  z-index: 1;
+  z-index: 4;
 }
 
 .overflow {
@@ -240,8 +228,6 @@
   background-color: var(--main-color-hover);
 }
 
-/* ВИДЕО-СЕКЦИЯ */
-
 .mg-b-30 {
   margin-bottom: 30px;
 }
@@ -261,8 +247,6 @@
 .mg-b-100 {
   margin-bottom: -100px;
 }
-
-/* НАВИГАЦИЯ */
 
 .pg-top-100 {
   padding-top: 100px;
@@ -333,8 +317,6 @@
   margin-bottom: 0;
 }
 
-/* светлые секции */
-
 .h3-how-brown {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -345,8 +327,6 @@
   font-size: 14px;
 }
 
-/* темные секции */
-
 .f-s-24 {
   font-size: 24px;
 }
@@ -356,8 +336,6 @@
   margin-bottom: 20px;
   padding-left: 10px;
 }
-
-/* Футер */
 
 .mg-top-60 {
   margin-top: 60px;

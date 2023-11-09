@@ -143,6 +143,10 @@
   padding: 0;
 }
 
+.vert-align {
+  vertical-align: middle;
+}
+
 /* Заголовки */
 
 .line-h {
@@ -271,7 +275,7 @@
 
 .nav-item {
   box-sizing: border-box;
-  width: 350px;
+  flex: 1 1 350px;
   margin-right: 15px;
   margin-left: 15px;
   margin-bottom: 20px;
@@ -280,6 +284,10 @@
 .link-size {
   width: 100%;
   height: 100%;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
 }
 
 .nav-item:nth-of-type(3n + 1) {
@@ -348,12 +356,6 @@
 
 .section-title-dark {
   padding-right: 30px;
-}
-
-.img {
-  width: 578px;
-  height: 434px;
-  vertical-align: middle;
 }
 
 /* Футер */

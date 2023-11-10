@@ -360,9 +360,10 @@
 }
 
 .input-footer {
-  flex-grow: 1;
+  box-sizing: border-box;
   height: 50px;
-  padding-left: 15px;
+  padding: 15px;
+  flex-grow: 1;
 }
 
 .input-footer::placeholder {

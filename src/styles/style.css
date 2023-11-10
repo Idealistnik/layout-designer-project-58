@@ -9,9 +9,8 @@
   --color-white-op: #d7ccc0;
   --color-light: #f5f4f0;
   --color-dark-more: #212529;
-  --color-blue: #007DC1;
-  --color-blue-light: #1085C5;
-
+  --color-blue: #007dc1;
+  --color-blue-light: #1085c5;
 }
 
 @font-face {
@@ -363,11 +362,11 @@
 .input-footer {
   flex-grow: 1;
   height: 50px;
+  padding-left: 15px;
 }
 
 .input-footer::placeholder {
   opacity: 0.2;
-  padding: 15px;
 }
 
 .button-footer {
